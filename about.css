@@ -1,0 +1,89 @@
+.imageleft {
+  
+  height: 150px;
+  width: 416px;
+  background-color:white;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 30x;
+  justify-content: center;
+  border: 3px solid black;
+}
+.homelink{
+  margin-left: auto;
+} 
+ul{
+  margin-left:auto;
+  width: fit-content;
+}
+h1{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: rgb(99, 98, 100);
+  background-color: black;
+}
+/* mouse over link */
+a:hover {
+  color: white;
+  background-color: black;
+}
+/* selected link */
+a:active {
+  color: rgb(27, 5, 5);
+  background-color: black;
+}
+.about{
+  color: black;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  position: center;
+  margin-top: 0;
+  margin-right: 23% ;
+  }
+  li{
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+margin: 10px 5px;    
+padding: 0;
+}
+nav{
+  position: sticky;
+  top: 0px;
+}
+footer{
+  display:table-footer-group;
+  font-family: oswald, sans-serif ;
+}
+.border{
+  border: 3px solid black;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100%;
+  text-align: center;
+  display:table;
+  width: 100vw;
+}
+html{
+  height: 100%;
+}

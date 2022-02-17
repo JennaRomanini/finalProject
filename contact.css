@@ -1,0 +1,90 @@
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  text-align: center;
+  display:table;
+  width: 100vw;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.border{
+    border: 3px solid black;
+}
+
+footer{
+  display:table-footer-group;
+  font-family: oswald, sans-serif ;
+}
+/*head, nav, footer{
+    height: 70px;
+    width: 100%;
+    z-index: 3;
+}*/
+
+nav{
+    position: sticky;
+    top: 0px;
+}
+li{
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+margin: 10px 5px;    
+padding: 0;
+}
+.content-wrapper{
+ display: table-row-group;
+}
+.hero-section {
+   height: 100vh;
+    width: 100%;
+    background-image:url(images/edz-norton-makeupbrushes-unsplash-1.jpg) ;
+    background-size: 100%;
+    background-position: center;
+   }
+.hero-copy{
+color: black;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+position: relative;
+margin-top: 35%;
+margin-right: 23% ;
+}
+/* unvisited link */
+a:link {
+  color: black;
+}
+/* visited link */
+a:visited {
+  color: rgb(99, 98, 100);
+  background-color: black;
+}
+/* mouse over link */
+a:hover {
+  color: white;
+  background-color: black;
+}
+/* selected link */
+a:active {
+  color: rgb(27, 5, 5);
+  background-color: black;
+} 
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+.contact-form{
+  z-index: 2;
+}
+ul{
+  margin-left:auto;
+  width: fit-content;
+}
+.homelink{
+  margin-left: auto;
+} 
